@@ -70,14 +70,14 @@
                izz="0.000029" />
     </inertial>
     <visual>
-      <origin rpy="0 0 3.1415" xyz="0 0 0" />
+      <origin rpy="0 0 3.1415" xyz="0.013 0 0" />
       <geometry>
         <mesh filename="package://pal_gripper_description/meshes/gripper_finger_link.stl" scale="-1 -1 1"/>
       </geometry>
       <material name="Black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 3.1415" xyz="0.005 0 -0.165" />
+      <origin rpy="0 0 3.1415" xyz="0.018 0 -0.165" />
       <geometry>
         <box size="0.01 0.05 0.11"/>
       </geometry>
@@ -110,14 +110,14 @@
                izz="0.000029" />
     </inertial>
     <visual>
-      <origin rpy="0 0 3.1415" xyz="0 0 0"/>
+      <origin rpy="0 0 3.1415" xyz="-0.013 0 0"/>
       <geometry>
         <mesh filename="package://pal_gripper_description/meshes/gripper_finger_link.stl"/>
       </geometry>
       <material name="Black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 3.1415" xyz="-0.005 0 -0.165" />
+      <origin rpy="0 0 3.1415" xyz="-0.018 0 -0.165" />
       <geometry>
         <box size="0.01 0.05 0.11"/>
       </geometry>
